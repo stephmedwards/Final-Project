@@ -1,0 +1,340 @@
+.white,
+h1,
+h6,
+a,
+.name{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+header {
+padding-bottom: 100px;
+background: url(../images/building.jpg) no-repeat center bottom rgb(134,141,157);
+  background-size: cover;
+}
+
+.menu {
+  clear: both;
+  text-align: center;
+}
+
+.menu.hidden-menu {
+  display: none;
+}
+
+header li{
+padding: 10px 0;
+margin-top:15px;
+margin: 0 0 0 3px;
+font-size: 17px;
+font-weight:100;
+color:white;
+}
+
+.menu-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: white;
+	z-index: 99;
+}
+
+.responsive-menu{
+	display: none;
+}
+
+.expand {
+	display: block !important;
+}
+
+
+.white{
+  padding-top: 10px;
+}
+
+strong{
+  float:left;
+  font-weight: 800;
+  font-size: 30px;
+  padding-left: 26px;
+}
+
+h1{
+  clear: both;
+  padding-top: 80px;
+  font-weight: 800;
+  font-size: 36px;
+  text-align: center;
+}
+
+form{
+  color: white;
+  margin:0 auto;
+}
+.radiobuttons{
+  width: 300px;
+  margin:0 auto;
+  padding-top: 30px;
+  font-size: 13px;
+  font-weight:300;
+}
+.getit{
+    color: grey;
+    display:block;
+    position:relative;
+    margin:0 auto;
+    text-align: left;
+    font-weight: 200;
+    font-size:12px;
+    background-color: white;
+    width:300px;
+    padding:10px;
+    border-radius: 1px;
+    margin-bottom: 150px;
+    margin-top: 30px;
+}
+
+img{
+  display:inline-block;
+  width: 350px;
+  height: 300px;
+  padding: 30px;
+}
+
+.something{
+  text-align: center;
+  background-color: #f0efef;
+  color: grey;
+  display:block;
+
+}
+
+
+h3{
+  font-weight: 600;
+  font-size:30px;
+  padding: 30px;
+}
+
+p{
+  font-weight: 300;
+  font-size:18px;
+  padding-bottom: 30px;
+}
+.pondswim{
+  display:inline-block;
+  padding:100px;
+  color:white;
+  font-weight: 600;
+  font-size:28px;
+  text-align: center;
+  background-image: url('../images/dive.jpg');
+  background-size: cover;
+  width: 350px;
+}
+
+.rooftopyoga{
+  display:inline-block;
+  padding:100px;
+  color:white;
+  font-weight: 600;
+  font-size:28px;
+  text-align: center;
+  background-image: url('../images/rooftopyoga.jpg');
+  background-size: cover;
+  width: 350px;
+  margin-top: 50px;
+}
+
+
+.runforyourlife{
+  margin-top: 50px;
+  display:inline-block;
+  padding:100px;
+  color:white;
+  font-weight: 600;
+  font-size:28px;
+  text-align: center;
+  background-image: url('../images/trainers.jpeg');
+  background-size: cover;
+  width: 350px;
+}
+
+.organic{
+  display:inline-block;
+  padding:110px;
+  color:white;
+  font-weight: 600;
+  font-size:28px;
+  text-align: center;
+  background-image: url('../images/goorganic.jpg');
+  background-size: cover;
+  width: 350px;
+}
+
+.breakfast{
+  margin-top:50px;
+  display:inline-block;
+  padding:110px;
+  color:white;
+  font-weight: 600;
+  font-size:28px;
+  text-align: center;
+  background-image: url('../images/breakfastoats.jpg');
+  background-size: cover;
+  width: 350px;
+}
+
+.meat{
+  margin-top: 50px;
+  display:inline-block;
+  padding:100px;
+  color:white;
+  font-weight: 600;
+  font-size:28px;
+  text-align: center;
+  background-image: url('../images/meat2.jpg');
+  background-size: cover;
+  width: 350px;
+}
+
+
+h6{
+  font-weight: 600;
+  font-size:9px;
+  text-align: center;
+}
+
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family:"Open Sans", sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+}
+.wrap{
+  position:relative;
+		margin:0 auto;
+		width:900px;
+}
+
+
+@media screen and (min-width:470px) {
+
+  h1{
+    padding-top: 130px;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .menu {
+    clear: none;
+    text-align: right;
+    margin-right: 20px;
+    float:right;
+  }
+
+  .menu.hidden-menu {
+    display: block;
+  }
+
+  header li{
+  margin-right: 20px;
+  font-size: 24px;
+  display:inline-block;
+  padding-right: 10px;
+  padding-top: 20px;
+
+  }
+
+}
+
+@media screen and (min-width:768px) {
+/* use this when the screen is more than 768px wide, e.g, hide stuff */
+  .rooftopyoga{
+      margin-left: 50px;
+  }
+  .runforyourlife{
+    width: 750px;
+    height:375px;
+  }
+  .breakfast{
+      margin-left: 50px;
+  }
+  .meat{
+    width: 750px;
+    height:375px;
+  }
+
+}

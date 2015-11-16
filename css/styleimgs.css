@@ -1,0 +1,361 @@
+.white,
+h1,
+h6,
+a,
+.name{
+  color: white;
+}
+.menu{
+  color:white;
+  float:right;
+  margin-right: 30px;
+}
+
+a{
+  text-decoration: none;
+  color:grey;
+}
+
+header {
+padding-bottom: 110px;
+background: url(../images/building.jpg) no-repeat center bottom rgb(134,141,157);
+
+}
+
+header li{
+display:inline-block;
+float:right;
+padding-right: 10px;
+margin-top:15px;
+margin: 0 0 0 3px;
+font-size: 17px;
+font-weight:100;
+color:white;
+}
+
+
+ol li{
+margin:30px 0 30px 0;
+color:grey;
+}
+
+li{
+  color:grey;
+}
+
+.white{
+  padding-top: 10px;
+}
+
+strong{
+  float:left;
+  font-weight: 800;
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+h1{
+  padding-top: 130px;
+  font-weight: 800;
+  font-size: 36px;
+  text-align: center;
+}
+
+form{
+  color: white;
+  margin:0 auto;
+}
+
+
+
+.something{
+  text-align: center;
+  background-color: #f0efef;
+  color: grey;
+  display:block;
+}
+em{
+  font-weight: 100;
+  font-size:30px;
+  color:lightcoral;
+}
+
+em:hover{
+  font-size:35px;
+  color: indianred;
+}
+
+h3{
+  font-weight: 500;
+  font-size:37px;
+  color:white;
+}
+
+.pool{
+  text-align: center;
+  padding-top: 130px;
+  background: url('../images/swimswim.jpg')no-repeat top;
+  background-size: cover;
+  width:350px;
+  height:350px;
+  margin:0 auto;
+  margin-top: 50px;
+}
+
+
+.swim{
+  color:grey;
+  font-weight: 100;
+  font-size:17px;
+  text-align: center;
+  width:350px;
+  margin:0 auto;
+}
+
+.yog{
+  text-align: center;
+  padding-top: 130px;
+  background: url('../images/highrise.jpeg')no-repeat top;
+  background-size: cover;
+  width: 350px;
+  height:350px;
+  margin:0 auto;
+}
+
+.rooftopyoga{
+  color:grey;
+  font-weight: 100;
+  font-size:17px;
+  text-align: center;
+  width:350px;
+  margin:0 auto;
+}
+
+.run{
+  text-align: center;
+  padding-top: 130px;
+  background: url('../images/parkrun.jpg')no-repeat center;
+  background-size: cover;
+  width: 350px;
+  height:350px;
+  margin:0 auto;
+}
+
+.running{
+  color:grey;
+  font-weight: 100;
+  font-size:17px;
+  text-align: center;
+  width:350px;
+  margin:0 auto;
+}
+
+.org{
+  text-align: center;
+  padding-top: 130px;
+  background: url('../images/organic.jpg')no-repeat center;
+  background-size: cover;
+  width: 350px;
+  height:350px;
+  margin:0 auto;
+}
+
+.goorganic{
+  color:grey;
+  font-weight: 100;
+  font-size:17px;
+  text-align: center;
+  width:350px;
+  margin:0 auto;
+}
+
+.break{
+  text-align: center;
+  padding-top: 130px;
+  background: url('../images/granola.jpg')no-repeat top;
+  background-size: cover;
+  width: 350px;
+  height:350px;
+  margin:0 auto;
+}
+
+.breakfast{
+  color:grey;
+  font-weight: 100;
+  font-size:17px;
+  text-align: center;
+  width:350px;
+  margin:0 auto;
+}
+
+.steak{
+  text-align: center;
+  padding-top: 130px;
+  background: url('../images/meat.jpg')no-repeat center;
+  background-size: cover;
+  width: 350px;
+  height:350px;
+  margin:0 auto;
+}
+
+.meatforyou{
+  color:grey;
+  font-weight: 100;
+  font-size:17px;
+  text-align: left;
+  margin:0 auto;
+  width:350px;
+}
+
+
+h6{
+  font-weight: 600;
+  font-size:9px;
+  text-align: center;
+}
+
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family:"Open Sans", sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+background-color: #f0efef;
+}
+
+
+footer{
+  display:block;
+  background: grey;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+/* use this when the screen is more than 768px wide, e.g, hide stuff */
+
+.pool{
+  width:700px;
+  height:350px;
+}
+
+
+.swim{
+  padding:30px;
+  font-weight: 100;
+  font-size:22px;
+  width:800px;
+}
+
+.yog{
+  width: 700px;
+  height:350px;
+}
+
+.rooftopyoga{
+  padding:30px;
+  font-weight: 100;
+  font-size:22px;
+  width:800px;
+}
+
+.run{
+  width: 700px;
+  height:350px;
+}
+
+.running{
+  padding:30px;
+  font-weight: 100;
+  font-size:22px;
+  width:800px;
+}
+
+.org{
+  width: 700px;
+  height:350px;
+}
+
+.goorganic{
+  padding:30px;
+  font-weight: 100;
+  font-size:22px;
+  width:800px;
+}
+
+.break{
+  width: 700px;
+  height:350px;
+}
+
+.breakfast{
+  padding:30px;
+  font-weight: 100;
+  font-size:22px;
+  width:800px;
+}
+
+.steak{
+  width: 700px;
+  height:350px;
+}
+
+.meatforyou{
+  padding:30px;
+  font-weight: 100;
+  font-size:22px;
+  width:800px;
+}
+ol{
+  width:700px;
+  margin:0 auto;
+}
+
+header li{
+margin-right: 30px;
+font-size: 24px;
+}
